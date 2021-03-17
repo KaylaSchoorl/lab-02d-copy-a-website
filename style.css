@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(227, 222, 231);
+}
+h1 {
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    color:rgb(14, 12, 11);
+    font-size: xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#one {
+    color:rgb(10, 9, 9); 
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#two {
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+#bottom-pic {
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    padding: 5%;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#explanation {
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    padding: 3%;
+}
+#mySidenav a {
+    position: absolute;
+    left: -80px; 
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+#mySidenav a:hover {
+    left: 0;
+}
+#planets {
+    top: 20px;
+    background-color: crimson;
+}
+#stars {
+    top: 80px;
+    background-color: darkgreen;
+}
+#astronomers {
+    top: 140px;
+    background-color: darkmagenta;
+}
+.navbar {
+    background-color: rgb(177, 154, 154);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color:rgb(7, 5, 6);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background-color: gold;
+    color: black;
+}
+.navbar a.active {
+    background-color: coral;
+    color: white;
+}
